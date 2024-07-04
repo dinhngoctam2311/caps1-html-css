@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.fix-layout{
+    margin: 0 100px 0;
+}
+.heading{
+    height: 900px;
+    color: #FFFCF4;
+    
+}
+.header{
+    background-color: #FFF;
+    color: #000;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    
+}
+.logo{
+    width: 49%;
+    float: left;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+.section{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #5F5B53;
+
+}
+
+.section>ul{
+    display: flex;
+    list-style: none;
+    gap: 80px;
+
+
+}
+.section>ul>li:hover{
+    color: #000;
+    cursor: pointer;
+}
+.login{
+    float: right;
+    background-color: #000;
+    color: #FFF;
+    padding: 0 30px 0 30px;
+    border-radius: 20px;
+}
+.login:hover{
+    cursor: pointer;
+}
+.slider{
+    display: flex;
+    color: #000;
+    margin-top: 20px;
+}
+.slider>.slider-img{
+    width: 45%;
+    float: left;
+}
+.slider>.silder-description{
+    width: 52%;
+    float: right;
+    padding-top: 64px;
+    padding-left: 130px;
+}
+
+.silder-description>.des-h1{
+    color: #171100;
+    font-family: var(--font-heading);
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: -1.16px;
+}
+.silder-description>.des-p{
+    margin-top: 22px;
+    color: #5f5b53;
+    font-size: 24px;
+}
+.silder-description>.des-group{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    margin-top: 38px;   
+    text-align: center; 
+}
+.des-group>.des-btn{
+    margin-right: 24px;
+    color: #FFF;
+    background-color: #ffb900;
+    min-width: 180px;
+    line-height: 64px;
+    border-radius: 40px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.des-group>.des-watch{
+    display: flex;
+    font-size: 20px;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+    margin-left: 28px;
+    background-color: #FFF;
+}
+.des-watch>.des-icon{
+    margin-right: 20px;
+    text-align: center;
+}
+
+.silder-description>.des-recent{
+    margin-top: 40px;
+    font-size: 24px;
+    color: #5F5B53;
+}
+.silder-description>.des-stats{
+    margin-top: 24px;
+    font-size: 24px;
+}
+.des-stats>.number{
+    font-size: 40px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
